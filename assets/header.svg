@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 280" role="img" aria-label="ShiZai — agent runtime reliability, Shenzhen">
+  <defs>
+    <linearGradient id="border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#3a3630"/>
+      <stop offset="45%" stop-color="#C9A96E"/>
+      <stop offset="100%" stop-color="#26262e"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#C9A96E" stop-opacity="0"/>
+      <stop offset="35%" stop-color="#E8D5A3" stop-opacity="0.55"/>
+      <stop offset="62%" stop-color="#9DA3B8" stop-opacity="0.28"/>
+      <stop offset="100%" stop-color="#9DA3B8" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="glasshi" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.10"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#FFFFFF" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="10"/>
+    </filter>
+  </defs>
+
+  <!-- deep black card -->
+  <rect x="1.5" y="1.5" width="997" height="277" rx="20" fill="#07070a"/>
+
+  <!-- silk waves (bottom fill) -->
+  <path d="M0,206 C160,168 330,244 520,204 C710,168 850,238 1000,196 L1000,262 Q1000,278 984,278 L16,278 Q0,278 0,262 Z" fill="#14141b"/>
+  <path d="M0,236 C200,204 380,262 560,232 C740,206 880,258 1000,228 L1000,262 Q1000,278 984,278 L16,278 Q0,278 0,262 Z" fill="#1b1b24"/>
+
+  <!-- silk sheen ribbons (blurred light on fabric) -->
+  <g filter="url(#soft)">
+    <path d="M-20,120 C240,60 480,170 720,110 C840,84 940,110 1020,92" stroke="url(#sheen)" stroke-width="46" fill="none" opacity="0.5"/>
+    <path d="M-20,172 C260,122 520,212 780,152 C880,130 960,152 1020,142" stroke="url(#sheen)" stroke-width="26" fill="none" opacity="0.34"/>
+    <path d="M-20,232 C300,196 560,254 820,216 C910,204 970,216 1020,208" stroke="url(#sheen)" stroke-width="16" fill="none" opacity="0.22"/>
+    <animateTransform attributeName="transform" type="translate" values="0 0;-34 5;0 0" dur="16s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- glass panel -->
+  <rect x="48" y="42" width="566" height="188" rx="18" fill="#FFFFFF" fill-opacity="0.045" stroke="#FFFFFF" stroke-opacity="0.14"/>
+  <rect x="49" y="43" width="564" height="58" rx="17" fill="url(#glasshi)"/>
+
+  <!-- wordmark -->
+  <text x="84" y="92" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12" letter-spacing="8" fill="#C9A96E">TOMSEN-AI</text>
+  <text x="82" y="146" font-family="Didot,'Bodoni 72','Playfair Display',Georgia,serif" font-size="52" fill="#F2EFE6">ShiZai</text>
+  <line x1="84" y1="166" x2="300" y2="166" stroke="#C9A96E" stroke-opacity="0.45" stroke-width="1"/>
+  <text x="84" y="190" font-family="'Helvetica Neue',Arial,sans-serif" font-size="12.5" letter-spacing="4" fill="#9A9AA4">AGENT RUNTIME RELIABILITY · SHENZHEN</text>
+
+  <circle cx="88" cy="212" r="3" fill="#E8D5A3">
+    <animate attributeName="opacity" values="1;0.25;1" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <text x="100" y="216" font-family="'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="3" fill="#6E6E78">IN THE FIELD — FIXING WHAT I DAILY-DRIVE</text>
+
+  <!-- solar system -->
+  <defs>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#E8D5A3" stop-opacity="0.85"/>
+      <stop offset="40%" stop-color="#C9A96E" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#C9A96E" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <!-- distant stars -->
+    <circle cx="700" cy="58" r="1.1" fill="#FFFFFF" opacity="0.4"><animate attributeName="opacity" values="0.15;0.7;0.15" dur="3.4s" repeatCount="indefinite"/></circle>
+    <circle cx="762" cy="38" r="1" fill="#FFFFFF" opacity="0.35"><animate attributeName="opacity" values="0.5;0.1;0.5" dur="4.2s" repeatCount="indefinite"/></circle>
+    <circle cx="906" cy="52" r="1.2" fill="#FFFFFF" opacity="0.4"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="5s" repeatCount="indefinite"/></circle>
+    <circle cx="952" cy="178" r="1" fill="#FFFFFF" opacity="0.3"><animate attributeName="opacity" values="0.6;0.15;0.6" dur="3.8s" repeatCount="indefinite"/></circle>
+    <circle cx="728" cy="228" r="1.1" fill="#FFFFFF" opacity="0.35"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="4.6s" repeatCount="indefinite"/></circle>
+
+    <!-- orbits -->
+    <circle cx="820" cy="136" r="95" fill="none" stroke="#33333d" stroke-width="1"/>
+    <circle cx="820" cy="136" r="70" fill="none" stroke="#2e2e37" stroke-width="1"/>
+    <circle cx="820" cy="136" r="47" fill="none" stroke="#2a2a32" stroke-width="1"/>
+    <circle cx="820" cy="136" r="27" fill="none" stroke="#26262e" stroke-width="1"/>
+
+    <!-- sun -->
+    <circle cx="820" cy="136" r="17" fill="url(#sunGlow)">
+      <animate attributeName="r" values="15;19;15" dur="5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="820" cy="136" r="5" fill="#E8D5A3"/>
+
+    <!-- planet: qwen-code · outer orbit r95 · 26s -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="-50 820 136" to="310 820 136" dur="26s" repeatCount="indefinite"/>
+      <g transform="translate(915,136)">
+        <circle r="3.6" fill="#E8D5A3"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="50 0 0" to="-310 0 0" dur="26s" repeatCount="indefinite"/>
+          <text y="-11" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="9" letter-spacing="2" fill="#C9A96E">QWEN-CODE</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- planet: open-design · r70 · 18s -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="140 820 136" to="500 820 136" dur="18s" repeatCount="indefinite"/>
+      <g transform="translate(890,136)">
+        <circle r="3.2" fill="#C9A96E"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="-140 0 0" to="-500 0 0" dur="18s" repeatCount="indefinite"/>
+          <text y="-10" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="9" letter-spacing="2" fill="#B79865">OPEN-DESIGN</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- planet: omnigent · r47 · 12s -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="210 820 136" to="570 820 136" dur="12s" repeatCount="indefinite"/>
+      <g transform="translate(867,136)">
+        <circle r="2.7" fill="#9DA3B8"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="-210 0 0" to="-570 0 0" dur="12s" repeatCount="indefinite"/>
+          <text y="-9" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="8.5" letter-spacing="1.5" fill="#787882">OMNIGENT</text>
+        </g>
+      </g>
+    </g>
+
+    <!-- planet: openhands · r27 · 8s -->
+    <g>
+      <animateTransform attributeName="transform" type="rotate" from="60 820 136" to="420 820 136" dur="8s" repeatCount="indefinite"/>
+      <g transform="translate(847,136)">
+        <circle r="2.4" fill="#9DA3B8"/>
+        <g>
+          <animateTransform attributeName="transform" type="rotate" from="-60 0 0" to="-420 0 0" dur="8s" repeatCount="indefinite"/>
+          <text y="-8" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="8" letter-spacing="1.5" fill="#6E6E78">OPENHANDS</text>
+        </g>
+      </g>
+    </g>
+  </g>
+
+  <!-- bottom strip -->
+  <text x="500" y="262" text-anchor="middle" font-family="'Helvetica Neue',Arial,sans-serif" font-size="10.5" letter-spacing="3" fill="#8E8E98">STREAMING DIALECTS &#183; WATCHDOGS &amp; LIFECYCLE &#183; THE PROCESS BOUNDARY</text>
+
+  <!-- coordinates -->
+  <text x="966" y="32" text-anchor="end" font-family="'Helvetica Neue',Arial,sans-serif" font-size="9.5" letter-spacing="2" fill="#55555e">22.5429&#176;N 114.0596&#176;E</text>
+
+  <!-- cinematic light sweep -->
+  <g>
+    <rect x="-320" y="-40" width="280" height="360" fill="url(#sweep)" transform="skewX(-18)"/>
+    <animateTransform attributeName="transform" type="translate" from="0 0" to="1560 0" dur="7.5s" repeatCount="indefinite"/>
+  </g>
+
+  <!-- gold hairline border -->
+  <rect x="1.5" y="1.5" width="997" height="277" rx="20" fill="none" stroke="url(#border)" stroke-width="1.5"/>
+</svg>
