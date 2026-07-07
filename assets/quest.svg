@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 278" role="img" aria-label="Field record — qwen-code: 1 PR in review, maintainer-verified · open-design: 7 PRs in flight · omnigent: 3 merged · OpenHands SDK: 2 merged. One cell equals one pull request.">
+<rect width="1000" height="278" fill="#0d1117"/>
+<rect x="3" y="3" width="994" height="272" fill="none" stroke="#30363d" stroke-width="2" stroke-dasharray="8 6"/>
+<text x="42" y="40" font-family="'Courier New',Courier,monospace" font-size="17" font-weight="bold" letter-spacing="3" fill="#f2cc60">&#9670; FIELD RECORD</text>
+<text x="958" y="40" text-anchor="end" font-family="'Courier New',Courier,monospace" font-size="11" fill="#8b949e">1 CELL = 1 PULL REQUEST &#183; JUL 2026</text>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.30s" fill="freeze" calcMode="discrete"/>
+<text x="42" y="84" font-family="'Courier New',Courier,monospace" font-size="15" font-weight="bold" fill="#c9d1d9">qwen-code</text>
+<text x="42" y="101" font-family="'Courier New',Courier,monospace" font-size="11" fill="#8b949e">streaming tool-call protocol — rescuing silently-dropped tool calls</text>
+<rect x="600" y="73" width="13" height="13" fill="#f2cc60"><animate attributeName="opacity" values="1;0.25" dur="0.9s" calcMode="discrete" repeatCount="indefinite"/></rect>
+<text x="631" y="84" font-family="'Courier New',Courier,monospace" font-size="11.5" fill="#f2cc60">1 PR IN REVIEW &#183; maintainer-verified</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.65s" fill="freeze" calcMode="discrete"/>
+<text x="42" y="128" font-family="'Courier New',Courier,monospace" font-size="15" font-weight="bold" fill="#c9d1d9">open-design</text>
+<text x="42" y="145" font-family="'Courier New',Courier,monospace" font-size="11" fill="#8b949e">daemon &amp; runtime reliability — watchdogs, run lifecycle, replay</text>
+<rect x="600" y="117" width="13" height="13" fill="none" stroke="#58a6ff" stroke-width="2"/>
+<rect x="617" y="117" width="13" height="13" fill="none" stroke="#58a6ff" stroke-width="2"/>
+<rect x="634" y="117" width="13" height="13" fill="none" stroke="#58a6ff" stroke-width="2"/>
+<rect x="651" y="117" width="13" height="13" fill="none" stroke="#58a6ff" stroke-width="2"/>
+<rect x="668" y="117" width="13" height="13" fill="none" stroke="#58a6ff" stroke-width="2"/>
+<rect x="685" y="117" width="13" height="13" fill="none" stroke="#58a6ff" stroke-width="2"/>
+<rect x="702" y="117" width="13" height="13" fill="none" stroke="#58a6ff" stroke-width="2"/>
+<text x="733" y="128" font-family="'Courier New',Courier,monospace" font-size="11.5" fill="#58a6ff">7 PRs IN FLIGHT</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.00s" fill="freeze" calcMode="discrete"/>
+<text x="42" y="172" font-family="'Courier New',Courier,monospace" font-size="15" font-weight="bold" fill="#c9d1d9">omnigent</text>
+<text x="42" y="189" font-family="'Courier New',Courier,monospace" font-size="11" fill="#8b949e">harness process layer — executor lifecycle</text>
+<rect x="600" y="161" width="13" height="13" fill="#39d353"/>
+<rect x="617" y="161" width="13" height="13" fill="#39d353"/>
+<rect x="634" y="161" width="13" height="13" fill="#39d353"/>
+<text x="665" y="172" font-family="'Courier New',Courier,monospace" font-size="11.5" fill="#39d353">3 MERGED</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.35s" fill="freeze" calcMode="discrete"/>
+<text x="42" y="216" font-family="'Courier New',Courier,monospace" font-size="15" font-weight="bold" fill="#c9d1d9">OpenHands SDK</text>
+<text x="42" y="233" font-family="'Courier New',Courier,monospace" font-size="11" fill="#8b949e">agent sdk</text>
+<rect x="600" y="205" width="13" height="13" fill="#39d353"/>
+<rect x="617" y="205" width="13" height="13" fill="#39d353"/>
+<text x="648" y="216" font-family="'Courier New',Courier,monospace" font-size="11.5" fill="#39d353">2 MERGED</text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.8s" fill="freeze" calcMode="discrete"/>
+<text x="42" y="252" font-family="'Courier New',Courier,monospace" font-size="10.5" fill="#8b949e">LEGEND:</text>
+<rect x="112" y="242" width="11" height="11" fill="#39d353"/><text x="130" y="252" font-family="'Courier New',Courier,monospace" font-size="10.5" fill="#8b949e">merged</text>
+<rect x="205" y="242" width="11" height="11" fill="#f2cc60"/><text x="223" y="252" font-family="'Courier New',Courier,monospace" font-size="10.5" fill="#8b949e">in review</text>
+<rect x="318" y="242" width="11" height="11" fill="none" stroke="#58a6ff" stroke-width="2"/><text x="336" y="252" font-family="'Courier New',Courier,monospace" font-size="10.5" fill="#8b949e">open, awaiting review</text>
+</g>
+</svg>

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 216" role="img" aria-label="House rules: daily-drive what you patch; issue-first minimal diff; three-layer repro; mutation A/B; one niche dug deep.">
+<rect width="1000" height="216" fill="#0d1117"/>
+<rect x="3" y="3" width="994" height="210" fill="none" stroke="#30363d" stroke-width="2" stroke-dasharray="8 6"/>
+<rect x="10" y="10" width="980" height="196" fill="none" stroke="#21262d" stroke-width="2"/>
+<text x="42" y="42" font-family="'Courier New',Courier,monospace" font-size="15" font-weight="bold" letter-spacing="3" fill="#39d353">&#9670; HOUSE RULES</text>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.30s" fill="freeze" calcMode="discrete"/>
+<text x="46" y="74" font-family="'Courier New',Courier,monospace" font-size="13.5" fill="#39d353">&#9656;</text>
+<text x="66" y="74" font-family="'Courier New',Courier,monospace" font-size="13.5"><tspan fill="#c9d1d9" font-weight="bold">daily-drive what you patch </tspan><tspan fill="#8b949e">&#8212; bugs are found in the field, not in the backlog</tspan></text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.60s" fill="freeze" calcMode="discrete"/>
+<text x="46" y="102" font-family="'Courier New',Courier,monospace" font-size="13.5" fill="#39d353">&#9656;</text>
+<text x="66" y="102" font-family="'Courier New',Courier,monospace" font-size="13.5"><tspan fill="#c9d1d9" font-weight="bold">issue-first, minimal diff </tspan><tspan fill="#8b949e">&#8212; zero speculation</tspan></text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="0.90s" fill="freeze" calcMode="discrete"/>
+<text x="46" y="130" font-family="'Courier New',Courier,monospace" font-size="13.5" fill="#39d353">&#9656;</text>
+<text x="66" y="130" font-family="'Courier New',Courier,monospace" font-size="13.5"><tspan fill="#c9d1d9" font-weight="bold">three-layer repro </tspan><tspan fill="#8b949e">&#8212; red/green unit &#8594; mock-server e2e &#8594; real binary</tspan></text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.20s" fill="freeze" calcMode="discrete"/>
+<text x="46" y="158" font-family="'Courier New',Courier,monospace" font-size="13.5" fill="#39d353">&#9656;</text>
+<text x="66" y="158" font-family="'Courier New',Courier,monospace" font-size="13.5"><tspan fill="#c9d1d9" font-weight="bold">mutation A/B every fix </tspan><tspan fill="#8b949e">&#8212; tests must bite</tspan></text>
+</g>
+<g opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.05s" begin="1.50s" fill="freeze" calcMode="discrete"/>
+<text x="46" y="186" font-family="'Courier New',Courier,monospace" font-size="13.5" fill="#39d353">&#9656;</text>
+<text x="66" y="186" font-family="'Courier New',Courier,monospace" font-size="13.5"><tspan fill="#c9d1d9" font-weight="bold">one niche, dug deep </tspan><tspan fill="#8b949e">&#8212; the boundary layer is the territory</tspan></text>
+</g>
+<rect x="900" y="182" width="10" height="14" fill="#39d353"><animate attributeName="opacity" values="1;0" dur="1s" begin="2s" calcMode="discrete" repeatCount="indefinite"/></rect>
+</svg>
