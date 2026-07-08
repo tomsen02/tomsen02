@@ -1,72 +1,239 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" role="img" aria-label="ZaiCode — a terminal session. whoami: agent engineer at a Shenzhen AI startup, focus on agent runtime reliability. gh stats table: qwen-code 1 merged; omnigent 5 merged, 8 in flight, 12 issues; OpenHands SDK 2 merged, 4 in flight, 3 issues; OpenHands 1 merged; open-design 6 in flight; total 9 merged, 19 in flight, 16 issues." font-family="'SF Mono','Cascadia Code','Courier New',monospace" font-size="20" xml:space="preserve">
-<rect x="0" y="0" width="1000" height="800" rx="14" fill="#1f1e1d"/>
-<rect x="1" y="1" width="998" height="798" rx="14" fill="none" stroke="#3d3a37" stroke-width="2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 984" role="img" aria-label="ZaiCode — a terminal session. whoami: agent engineer at a Shenzhen AI startup, focus on agent runtime reliability. quests: mine 10 merged PRs 9/10; file 20 upstream issues 16/20; write the first war story in ~/posts 0/1. fix bugs: a pixel hero quests across a Terraria-style map, slaying the classic bosses of agent-runtime life: zombie-proc, deadlock, and the OOM beast." font-family="'SF Mono','Cascadia Code','Courier New',monospace" font-size="20" xml:space="preserve">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+<stop offset="0" stop-color="#0a0a0c"/>
+<stop offset="0.55" stop-color="#111114"/>
+<stop offset="1" stop-color="#16151a"/>
+</linearGradient>
+<linearGradient id="glass" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/>
+<stop offset="1" stop-color="#ffffff" stop-opacity="0.03"/>
+</linearGradient>
+<linearGradient id="gold" x1="0" y1="0" x2="0" y2="1">
+<stop offset="0" stop-color="#f3dc9a"/>
+<stop offset="1" stop-color="#c9a145"/>
+</linearGradient>
+<linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#ffffff" stop-opacity="0"/>
+<stop offset="0.5" stop-color="#ffffff" stop-opacity="0.35"/>
+<stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+</linearGradient>
+<filter id="blur" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="46"/></filter>
+<g id="seg10"><rect x="0" y="0" width="12" height="16"/><rect x="14" y="0" width="12" height="16"/><rect x="28" y="0" width="12" height="16"/><rect x="42" y="0" width="12" height="16"/><rect x="56" y="0" width="12" height="16"/><rect x="70" y="0" width="12" height="16"/><rect x="84" y="0" width="12" height="16"/><rect x="98" y="0" width="12" height="16"/><rect x="112" y="0" width="12" height="16"/><rect x="126" y="0" width="12" height="16"/></g>
+<clipPath id="card"><polygon points="12,0 988,0 988,12 1000,12 1000,972 988,972 988,984 12,984 12,972 0,972 0,12 12,12"/></clipPath>
+<clipPath id="scenec"><polygon points="60,680 940,680 940,688 948,688 948,852 940,852 940,860 60,860 60,852 52,852 52,688 60,688"/></clipPath>
+</defs>
 
-<!-- pixel avatar: black hair, glasses, white collar, slate cardigan -->
+<polygon points="12,0 988,0 988,12 1000,12 1000,972 988,972 988,984 12,984 12,972 0,972 0,12 12,12" fill="url(#bg)"/>
+<!-- soft light blooms behind the glass panels -->
+<g clip-path="url(#card)">
+<circle cx="880" cy="80" r="160" fill="#c9a24a" opacity="0.10" filter="url(#blur)"/>
+<circle cx="140" cy="880" r="200" fill="#4a5570" opacity="0.14" filter="url(#blur)"/>
+<circle cx="640" cy="420" r="180" fill="#8a7440" opacity="0.05" filter="url(#blur)"/>
+</g>
+<polygon points="13,1.5 986.5,1.5 986.5,13 998.5,13 998.5,971 986.5,971 986.5,982.5 13,982.5 13,971 1.5,971 1.5,13 13,13" fill="none" stroke="#d9b45e" stroke-opacity="0.45" stroke-width="2"/>
+<rect x="24" y="2" width="952" height="1.5" fill="url(#edge)"/>
+
+<!-- avatar: glass tile with a pixel-art stone laced with gold ore veins ("Shi" = stone) -->
 <g transform="translate(48,40)">
-<g fill="#26262a"><rect x="30" y="0" width="60" height="10"/><rect x="20" y="10" width="80" height="20"/><rect x="20" y="30" width="10" height="30"/><rect x="90" y="30" width="10" height="30"/></g>
-<g fill="#f2c9a1"><rect x="30" y="30" width="60" height="10"/><rect x="30" y="50" width="60" height="10"/><rect x="30" y="60" width="60" height="10"/><rect x="40" y="70" width="40" height="10"/><rect x="50" y="80" width="20" height="10"/></g>
-<g fill="#1d1d20"><rect x="30" y="40" width="10" height="10"/><rect x="50" y="40" width="20" height="10"/><rect x="80" y="40" width="10" height="10"/></g>
-<g fill="#b7d3e8"><rect x="40" y="40" width="10" height="10"/><rect x="70" y="40" width="10" height="10"/></g>
-<rect x="50" y="66" width="20" height="6" fill="#d29073"/>
-<g fill="#414b5c"><rect x="10" y="80" width="30" height="10"/><rect x="80" y="80" width="30" height="10"/><rect x="0" y="90" width="50" height="10"/><rect x="70" y="90" width="50" height="10"/><rect x="0" y="100" width="120" height="20"/></g>
-<g fill="#f5f3ee"><rect x="40" y="80" width="10" height="10"/><rect x="70" y="80" width="10" height="10"/><rect x="50" y="90" width="20" height="10"/></g>
+<polygon points="12,4 108,4 108,12 116,12 116,108 108,108 108,116 12,116 12,108 4,108 4,12 12,12" fill="url(#glass)" stroke="#d9b45e" stroke-opacity="0.55" stroke-width="2"/>
+<rect x="24" y="5" width="72" height="1.5" fill="url(#edge)"/>
+<circle cx="60" cy="62" r="34" fill="#c9a24a" opacity="0.14" filter="url(#blur)"/>
+<!-- boulder bobs like a Terraria dropped item -->
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -4;0 0" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" dur="2.6s" repeatCount="indefinite"/>
+<g fill="#6b6e7a"><rect x="40" y="28" width="40" height="8"/><rect x="32" y="36" width="56" height="8"/><rect x="24" y="44" width="72" height="8"/><rect x="16" y="52" width="88" height="8"/><rect x="16" y="60" width="88" height="8"/><rect x="16" y="68" width="88" height="8"/><rect x="24" y="76" width="72" height="8"/><rect x="32" y="84" width="56" height="8"/></g>
+<g fill="#8f929e"><rect x="40" y="28" width="24" height="8"/><rect x="32" y="36" width="24" height="8"/><rect x="24" y="44" width="24" height="8"/><rect x="16" y="52" width="16" height="8"/></g>
+<rect x="40" y="28" width="16" height="4" fill="#a6a9b4"/>
+<g fill="#4a4c56"><rect x="96" y="52" width="8" height="8"/><rect x="88" y="60" width="16" height="8"/><rect x="80" y="68" width="24" height="8"/><rect x="72" y="76" width="24" height="8"/><rect x="48" y="84" width="40" height="8"/></g>
+<rect x="32" y="88" width="56" height="4" fill="#34363e"/>
+<g fill="#34363e"><rect x="60" y="60" width="4" height="12"/><rect x="52" y="72" width="12" height="4"/></g>
+<g fill="#d9b45e"><rect x="56" y="52" width="16" height="8"/><rect x="64" y="60" width="8" height="8"/><rect x="32" y="68" width="16" height="8"/><rect x="80" y="44" width="8" height="8"/><rect x="88" y="56" width="4" height="4"/><rect x="44" y="80" width="8" height="6"/></g>
+<g fill="#ecd07f"><animate attributeName="opacity" values="1;0.45;1" dur="2.2s" begin="0.6s" repeatCount="indefinite"/><rect x="56" y="52" width="8" height="8"/><rect x="32" y="68" width="8" height="8"/><rect x="80" y="44" width="4" height="4"/></g>
+<g fill="#ffffff" opacity="0.9"><animate attributeName="opacity" values="0.9;0.15;0.9" dur="1.8s" repeatCount="indefinite"/><rect x="88" y="24" width="4" height="12"/><rect x="84" y="28" width="12" height="4"/></g>
+</g>
+<!-- ground shadow breathes with the bob -->
+<rect x="36" y="94" width="48" height="4" fill="#000000" opacity="0.30">
+<animate attributeName="x" values="36;40;36" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" dur="2.6s" repeatCount="indefinite"/>
+<animate attributeName="width" values="48;40;48" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" dur="2.6s" repeatCount="indefinite"/>
+<animate attributeName="opacity" values="0.30;0.20;0.30" keyTimes="0;0.5;1" calcMode="spline" keySplines="0.4 0 0.6 1;0.4 0 0.6 1" dur="2.6s" repeatCount="indefinite"/>
+</rect>
 </g>
 
-<text x="200" y="104" font-size="46" font-weight="bold"><tspan fill="#d97757">Zai</tspan><tspan fill="#e8e6e3">Code</tspan></text>
-<text x="202" y="140" fill="#8a8580" font-size="18">agent runtime reliability · Shenzhen</text>
+<text x="200" y="104" font-size="46" font-weight="bold"><tspan fill="url(#gold)">Zai</tspan><tspan fill="#f2f1ee">Code</tspan></text>
+<text x="202" y="140" fill="#93939c" font-size="18">agent runtime reliability · Shenzhen</text>
 
-<!-- welcome box -->
-<rect x="36" y="188" width="640" height="106" rx="8" fill="none" stroke="#d97757" stroke-width="1.5"/>
-<text x="56" y="224"><tspan fill="#d97757">✻</tspan><tspan fill="#e8e6e3" font-weight="bold"> Welcome to ZaiCode!</tspan></text>
-<text x="56" y="252" fill="#8a8580" font-size="17">  /help for help, /status for your current setup</text>
-<text x="56" y="278" fill="#8a8580" font-size="17">  cwd: /home/zai/agent-runtime</text>
+<!-- welcome chip -->
+<polygon points="44,186 358,186 358,194 366,194 366,230 358,230 358,238 44,238 44,230 36,230 36,194 44,194" fill="url(#glass)" stroke="#d9b45e" stroke-opacity="0.5" stroke-width="2"/>
+<g fill="#ecd07f"><animate attributeName="opacity" values="1;0.55;1" dur="2.4s" repeatCount="indefinite"/><rect x="60" y="202" width="4" height="20"/><rect x="52" y="210" width="20" height="4"/><rect x="56" y="206" width="4" height="4"/><rect x="64" y="206" width="4" height="4"/><rect x="56" y="214" width="4" height="4"/><rect x="64" y="214" width="4" height="4"/></g>
+<text x="82" y="220" fill="#f2f1ee" font-weight="bold">Welcome to ZaiCode!</text>
 
-<!-- exchange 1: whoami -->
+<!-- panel 1: whoami -->
 <g opacity="0"><set attributeName="opacity" to="1" begin="0.8s"/>
-<text x="36" y="348" fill="#8a8580">&gt; </text>
-<clipPath id="t1"><rect x="60" y="328" width="0" height="28"><animate attributeName="width" values="0;12;24;36;48;60;74" keyTimes="0;0.16;0.33;0.5;0.66;0.83;1" calcMode="discrete" begin="0.8s" dur="0.9s" fill="freeze"/></rect></clipPath>
-<text x="60" y="348" fill="#e8e6e3" font-weight="bold" clip-path="url(#t1)">whoami</text>
-<rect x="64" y="331" width="11" height="21" fill="#e8e6e3"><animate attributeName="x" values="64;76;88;100;112;124;138" keyTimes="0;0.16;0.33;0.5;0.66;0.83;1" calcMode="discrete" begin="0.8s" dur="0.9s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.1s"/></rect>
+<polygon points="46,266 954,266 954,276 964,276 964,384 954,384 954,394 46,394 46,384 36,384 36,276 46,276" fill="url(#glass)" stroke="#d9b45e" stroke-opacity="0.38" stroke-width="2"/>
+<rect x="56" y="267" width="888" height="1.5" fill="url(#edge)"/>
+<text x="56" y="308" fill="#93939c">&gt; </text>
+<clipPath id="t1"><rect x="80" y="288" width="0" height="28"><animate attributeName="width" values="0;12;24;36;48;60;74" keyTimes="0;0.16;0.33;0.5;0.66;0.83;1" calcMode="discrete" begin="0.8s" dur="0.9s" fill="freeze"/></rect></clipPath>
+<text x="80" y="308" fill="#f2f1ee" font-weight="bold" clip-path="url(#t1)">whoami</text>
+<rect x="84" y="291" width="11" height="21" fill="#f2f1ee"><animate attributeName="x" values="84;96;108;120;132;144;158" keyTimes="0;0.16;0.33;0.5;0.66;0.83;1" calcMode="discrete" begin="0.8s" dur="0.9s" fill="freeze"/><set attributeName="opacity" to="0" begin="2.1s"/></rect>
 </g>
 <g opacity="0"><set attributeName="opacity" to="1" begin="2.3s"/>
-<text x="36" y="396"><tspan fill="#d97757">⏺</tspan><tspan fill="#e8e6e3"> Agent engineer at a Shenzhen AI startup.</tspan></text></g>
+<rect x="58" y="334" width="12" height="12" fill="#ecd07f"/>
+<text x="80" y="346" fill="#f2f1ee">Agent engineer at a Shenzhen AI startup.</text></g>
 <g opacity="0"><set attributeName="opacity" to="1" begin="2.6s"/>
-<text x="36" y="426"><tspan fill="#e8e6e3">  Focus: </tspan><tspan fill="#e8e6e3" font-weight="bold">agent runtime reliability</tspan><tspan fill="#8a8580"> — the agent ↔ process boundary.</tspan></text></g>
+<text x="56" y="376"><tspan fill="#f2f1ee">Focus: </tspan><tspan fill="#f2f1ee" font-weight="bold">agent runtime reliability</tspan><tspan fill="#93939c"> — the agent ↔ process boundary.</tspan></text></g>
 
-<!-- exchange 2: gh stats -->
+<!-- panel 2: quests -->
 <g opacity="0"><set attributeName="opacity" to="1" begin="3.8s"/>
-<text x="36" y="486" fill="#8a8580">&gt; </text>
-<clipPath id="t2"><rect x="60" y="466" width="0" height="28"><animate attributeName="width" values="0;24;48;72;96;120;144;168;192;220" keyTimes="0;0.11;0.22;0.33;0.44;0.55;0.66;0.77;0.88;1" calcMode="discrete" begin="3.8s" dur="1.1s" fill="freeze"/></rect></clipPath>
-<text x="60" y="486" fill="#e8e6e3" font-weight="bold" clip-path="url(#t2)">gh stats tomsen-ai</text>
-<rect x="64" y="469" width="11" height="21" fill="#e8e6e3"><animate attributeName="x" values="64;88;112;136;160;184;208;232;256;284" keyTimes="0;0.11;0.22;0.33;0.44;0.55;0.66;0.77;0.88;1" calcMode="discrete" begin="3.8s" dur="1.1s" fill="freeze"/><set attributeName="opacity" to="0" begin="5.2s"/></rect>
+<polygon points="46,410 954,410 954,420 964,420 964,598 954,598 954,608 46,608 46,598 36,598 36,420 46,420" fill="url(#glass)" stroke="#d9b45e" stroke-opacity="0.38" stroke-width="2"/>
+<rect x="56" y="411" width="888" height="1.5" fill="url(#edge)"/>
+<text x="56" y="446" fill="#93939c">&gt; </text>
+<clipPath id="t3"><rect x="80" y="426" width="0" height="28"><animate attributeName="width" values="0;12;24;36;48;60;74" keyTimes="0;0.16;0.33;0.5;0.66;0.83;1" calcMode="discrete" begin="3.8s" dur="0.9s" fill="freeze"/></rect></clipPath>
+<text x="80" y="446" fill="#f2f1ee" font-weight="bold" clip-path="url(#t3)">quests</text>
+<rect x="84" y="429" width="11" height="21" fill="#f2f1ee"><animate attributeName="x" values="84;96;108;120;132;144;158" keyTimes="0;0.16;0.33;0.5;0.66;0.83;1" calcMode="discrete" begin="3.8s" dur="0.9s" fill="freeze"/><set attributeName="opacity" to="0" begin="5.0s"/></rect>
+</g>
+<clipPath id="q1c"><rect x="624" y="474" width="0" height="24"><animate attributeName="width" values="0;126" begin="5.9s" dur="0.7s" fill="freeze"/></rect></clipPath>
+<clipPath id="q2c"><rect x="624" y="518" width="0" height="24"><animate attributeName="width" values="0;112" begin="6.1s" dur="0.7s" fill="freeze"/></rect></clipPath>
+<g opacity="0"><set attributeName="opacity" to="1" begin="5.4s"/>
+<rect x="64" y="480" width="12" height="12" fill="none" stroke="#d9b45e" stroke-width="2"/><rect x="68" y="484" width="4" height="4" fill="#ecd07f"/>
+<text x="92" y="492" fill="#e9e8f2" font-size="18">Mine 10 merged PRs</text>
+<rect x="620" y="474" width="146" height="24" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="2"/>
+<use href="#seg10" x="624" y="478" fill="#26262e"/>
+<g clip-path="url(#q1c)"><use href="#seg10" x="624" y="478" fill="#e8c66a"/></g>
+<text x="786" y="492" fill="#e8c66a" font-size="18" font-weight="bold">9/10</text>
+<line x1="56" y1="508" x2="944" y2="508" stroke="#d9b45e" stroke-opacity="0.18" stroke-width="2" stroke-dasharray="8 6"/></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="5.55s"/>
+<rect x="64" y="524" width="12" height="12" fill="none" stroke="#d9b45e" stroke-width="2"/><rect x="68" y="528" width="4" height="4" fill="#ecd07f"/>
+<text x="92" y="536" fill="#e9e8f2" font-size="18">File 20 upstream issues</text>
+<rect x="620" y="518" width="146" height="24" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="2"/>
+<use href="#seg10" x="624" y="522" fill="#26262e"/>
+<g clip-path="url(#q2c)"><use href="#seg10" x="624" y="522" fill="#e8c66a"/></g>
+<text x="786" y="536" fill="#e8c66a" font-size="18" font-weight="bold">16/20</text>
+<line x1="56" y1="552" x2="944" y2="552" stroke="#d9b45e" stroke-opacity="0.18" stroke-width="2" stroke-dasharray="8 6"/></g>
+<g opacity="0"><set attributeName="opacity" to="1" begin="5.7s"/>
+<rect x="64" y="568" width="12" height="12" fill="none" stroke="#d9b45e" stroke-width="2"/>
+<text x="92" y="580" fill="#e9e8f2" font-size="18">Write the first war story in ~/posts</text>
+<rect x="620" y="562" width="146" height="24" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="2"/>
+<use href="#seg10" x="624" y="566" fill="#26262e"/>
+<text x="786" y="580" fill="#ecd07f" font-size="18" font-weight="bold">0/1<animate attributeName="opacity" values="1;0.3;1" dur="1.6s" begin="6.6s" repeatCount="indefinite"/></text></g>
+
+<!-- panel 3: fix bugs -->
+<g opacity="0"><set attributeName="opacity" to="1" begin="7.2s"/>
+<polygon points="46,632 954,632 954,642 964,642 964,874 954,874 954,884 46,884 46,874 36,874 36,642 46,642" fill="url(#glass)" stroke="#d9b45e" stroke-opacity="0.38" stroke-width="2"/>
+<rect x="56" y="633" width="888" height="1.5" fill="url(#edge)"/>
+<text x="56" y="668" fill="#93939c">&gt; </text>
+<clipPath id="t4"><rect x="80" y="648" width="0" height="28"><animate attributeName="width" values="0;12;24;36;48;60;72;84;98" keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;0.875;1" calcMode="discrete" begin="7.2s" dur="1.1s" fill="freeze"/></rect></clipPath>
+<text x="80" y="668" fill="#f2f1ee" font-weight="bold" clip-path="url(#t4)">fix bugs</text>
+<rect x="84" y="651" width="11" height="21" fill="#f2f1ee"><animate attributeName="x" values="84;96;108;120;132;144;156;168;182" keyTimes="0;0.125;0.25;0.375;0.5;0.625;0.75;0.875;1" calcMode="discrete" begin="7.2s" dur="1.1s" fill="freeze"/><set attributeName="opacity" to="0" begin="8.6s"/></rect>
 </g>
 
-<!-- stats table -->
-<g opacity="0"><set attributeName="opacity" to="1" begin="5.4s"/>
-<text x="64" y="530" fill="#8a8580" font-size="18">repo</text>
-<text x="470" y="530" fill="#8a8580" font-size="18">merged</text>
-<text x="630" y="530" fill="#8a8580" font-size="18">in flight</text>
-<text x="810" y="530" fill="#8a8580" font-size="18">issues</text>
-<line x1="60" y1="544" x2="920" y2="544" stroke="#3d3a37" stroke-width="2"/></g>
-<g opacity="0"><set attributeName="opacity" to="1" begin="5.6s"/>
-<text x="64" y="576" fill="#6cb6ff">qwen-code</text><text x="492" y="576" fill="#3fb950" font-weight="bold">1</text><text x="666" y="576" fill="#8a8580">–</text><text x="832" y="576" fill="#e8e6e3">1</text></g>
-<g opacity="0"><set attributeName="opacity" to="1" begin="5.75s"/>
-<text x="64" y="608" fill="#6cb6ff">omnigent</text><text x="492" y="608" fill="#3fb950" font-weight="bold">5</text><text x="666" y="608" fill="#f2cc60">8</text><text x="832" y="608" fill="#e8e6e3">12</text></g>
-<g opacity="0"><set attributeName="opacity" to="1" begin="5.9s"/>
-<text x="64" y="640" fill="#6cb6ff">OpenHands SDK</text><text x="492" y="640" fill="#3fb950" font-weight="bold">2</text><text x="666" y="640" fill="#f2cc60">4</text><text x="832" y="640" fill="#e8e6e3">3</text></g>
-<g opacity="0"><set attributeName="opacity" to="1" begin="6.05s"/>
-<text x="64" y="672" fill="#6cb6ff">OpenHands</text><text x="492" y="672" fill="#3fb950" font-weight="bold">1</text><text x="666" y="672" fill="#f2cc60">1</text><text x="832" y="672" fill="#8a8580">–</text></g>
-<g opacity="0"><set attributeName="opacity" to="1" begin="6.2s"/>
-<text x="64" y="704" fill="#6cb6ff">open-design</text><text x="492" y="704" fill="#8a8580">–</text><text x="666" y="704" fill="#f2cc60">6</text><text x="832" y="704" fill="#8a8580">–</text></g>
-<g opacity="0"><set attributeName="opacity" to="1" begin="6.45s"/>
-<line x1="60" y1="718" x2="920" y2="718" stroke="#3d3a37" stroke-width="2"/>
-<text x="64" y="748" fill="#e8e6e3" font-weight="bold">total</text><text x="492" y="748" fill="#3fb950" font-weight="bold">9</text><text x="666" y="748" fill="#f2cc60" font-weight="bold">19</text><text x="832" y="748" fill="#e8e6e3" font-weight="bold">16</text></g>
+<!-- battle scene: night sky, pines, cobble ground with ore; hero quests boss to boss -->
+<g opacity="0"><set attributeName="opacity" to="1" begin="8.7s"/>
+<polygon points="60,680 940,680 940,688 948,688 948,852 940,852 940,860 60,860 60,852 52,852 52,688 60,688" fill="#0d1220" stroke="#d9b45e" stroke-opacity="0.3" stroke-width="2"/>
+<g clip-path="url(#scenec)"><g transform="translate(52,680)">
+<!-- stars -->
+<g fill="#ffffff"><animate attributeName="opacity" values="0.8;0.3;0.8" dur="2.8s" repeatCount="indefinite"/><rect x="80" y="24" width="3" height="3"/><rect x="300" y="40" width="3" height="3"/><rect x="540" y="20" width="3" height="3"/><rect x="700" y="48" width="3" height="3"/><rect x="120" y="60" width="3" height="3"/></g>
+<g fill="#ffffff"><animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.2s" repeatCount="indefinite"/><rect x="180" y="52" width="3" height="3"/><rect x="440" y="60" width="3" height="3"/><rect x="660" y="36" width="3" height="3"/><rect x="760" y="56" width="3" height="3"/><rect x="340" y="16" width="3" height="3"/><rect x="870" y="30" width="3" height="3"/></g>
+<!-- pine silhouettes -->
+<g fill="#223420"><rect x="96" y="56" width="8" height="8"/><rect x="92" y="64" width="16" height="16"/><rect x="88" y="80" width="24" height="16"/><rect x="84" y="96" width="32" height="16"/></g>
+<rect x="96" y="112" width="8" height="12" fill="#3a2b1f"/>
+<g fill="#223420"><rect x="854" y="78" width="14" height="10"/><rect x="850" y="88" width="22" height="14"/><rect x="846" y="102" width="30" height="14"/></g>
+<rect x="858" y="116" width="6" height="8" fill="#3a2b1f"/>
+<!-- hearts -->
+<g fill="#d24545"><rect x="826" y="14" width="4" height="4"/><rect x="834" y="14" width="4" height="4"/><rect x="826" y="18" width="12" height="4"/><rect x="830" y="22" width="4" height="4"/><rect x="846" y="14" width="4" height="4"/><rect x="854" y="14" width="4" height="4"/><rect x="846" y="18" width="12" height="4"/><rect x="850" y="22" width="4" height="4"/><rect x="866" y="14" width="4" height="4"/><rect x="874" y="14" width="4" height="4"/><rect x="866" y="18" width="12" height="4"/><rect x="870" y="22" width="4" height="4"/></g>
+<!-- ground: grass over cobble, ore clusters buried -->
+<rect x="0" y="124" width="896" height="16" fill="#4a8f3c"/>
+<rect x="0" y="124" width="896" height="4" fill="#5aa84a"/>
+<g fill="#3f7f33"><rect x="50" y="128" width="16" height="12"/><rect x="130" y="128" width="16" height="12"/><rect x="260" y="128" width="16" height="12"/><rect x="420" y="128" width="16" height="12"/><rect x="560" y="128" width="16" height="12"/><rect x="720" y="128" width="16" height="12"/><rect x="850" y="128" width="16" height="12"/></g>
+<rect x="0" y="140" width="896" height="36" fill="#5d4430"/>
+<g fill="#4c3524"><rect x="60" y="142" width="18" height="14"/><rect x="180" y="142" width="18" height="14"/><rect x="300" y="144" width="18" height="14"/><rect x="460" y="142" width="18" height="14"/><rect x="620" y="144" width="18" height="14"/><rect x="760" y="142" width="18" height="14"/><rect x="120" y="158" width="18" height="14"/><rect x="240" y="160" width="18" height="14"/><rect x="400" y="158" width="18" height="14"/><rect x="540" y="160" width="18" height="14"/><rect x="700" y="158" width="18" height="14"/><rect x="830" y="160" width="18" height="14"/></g>
+<g fill="#74563c"><rect x="220" y="146" width="8" height="6"/><rect x="500" y="148" width="8" height="6"/><rect x="800" y="146" width="8" height="6"/></g>
+<g fill="#4a4c56"><rect x="118" y="144" width="20" height="16"/><rect x="416" y="148" width="20" height="16"/><rect x="678" y="142" width="20" height="16"/></g>
+<g fill="#d9b45e"><rect x="122" y="148" width="6" height="6"/><rect x="130" y="152" width="5" height="5"/><rect x="126" y="144" width="4" height="4"/><rect x="420" y="152" width="6" height="6"/><rect x="428" y="148" width="5" height="5"/><rect x="682" y="146" width="6" height="6"/><rect x="690" y="150" width="5" height="5"/><rect x="686" y="144" width="4" height="4"/></g>
+<rect x="0" y="176" width="896" height="4" fill="#3a2b1f"/>
+<!-- boss 1: zombie-proc -->
+<g transform="translate(320,0)">
+<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.19;0.21;1" dur="18s" begin="8.9s" repeatCount="indefinite"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" keyTimes="0;0.5;1" dur="1.4s" begin="8.9s" repeatCount="indefinite"/>
+<text x="12" y="76" fill="#6f9c63" font-size="12" text-anchor="middle">zombie-proc</text>
+<rect x="-2" y="80" width="28" height="4" fill="#331c1c"/><rect x="-2" y="80" width="24" height="4" fill="#c0392b"/>
+<rect x="4" y="88" width="16" height="8" fill="#5e8f52"/>
+<g fill="#c4433d"><rect x="7" y="91" width="3" height="3"/><rect x="15" y="91" width="3" height="3"/></g>
+<rect x="2" y="96" width="20" height="20" fill="#4c7343"/>
+<g fill="#5e8f52"><rect x="-6" y="98" width="8" height="4"/><rect x="22" y="98" width="8" height="4"/></g>
+<g fill="#3c5a35"><rect x="4" y="116" width="6" height="8"/><rect x="14" y="116" width="6" height="8"/></g>
+</g>
+<rect x="-6" y="84" width="36" height="40" fill="#ffffff" opacity="0"><animate attributeName="opacity" values="0;0;0.85;0;0" keyTimes="0;0.18;0.195;0.21;1" dur="18s" begin="8.9s" repeatCount="indefinite"/></rect>
+</g>
+<!-- boss 2: deadlock -->
+<g transform="translate(560,0)">
+<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.47;0.49;1" dur="18s" begin="8.9s" repeatCount="indefinite"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -3;0 0" keyTimes="0;0.5;1" dur="1.8s" begin="8.9s" repeatCount="indefinite"/>
+<text x="14" y="76" fill="#a0a0ac" font-size="12" text-anchor="middle">deadlock</text>
+<rect x="-2" y="80" width="32" height="4" fill="#331c1c"/><rect x="-2" y="80" width="28" height="4" fill="#c0392b"/>
+<g fill="#8a8a94"><rect x="6" y="92" width="4" height="10"/><rect x="18" y="92" width="4" height="10"/><rect x="6" y="88" width="16" height="4"/></g>
+<rect x="0" y="102" width="28" height="22" fill="#9a9aa6"/>
+<rect x="0" y="102" width="28" height="4" fill="#b0b0bc"/>
+<g fill="#c4433d"><rect x="6" y="108" width="4" height="4"/><rect x="18" y="108" width="4" height="4"/></g>
+<rect x="12" y="114" width="4" height="6" fill="#2c2c33"/>
+</g>
+<rect x="-4" y="84" width="36" height="42" fill="#ffffff" opacity="0"><animate attributeName="opacity" values="0;0;0.85;0;0" keyTimes="0;0.46;0.475;0.49;1" dur="18s" begin="8.9s" repeatCount="indefinite"/></rect>
+</g>
+<!-- boss 3: the OOM beast -->
+<g transform="translate(780,0)">
+<animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.75;0.77;1" dur="18s" begin="8.9s" repeatCount="indefinite"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -5;0 0" keyTimes="0;0.5;1" dur="1.1s" begin="8.9s" repeatCount="indefinite"/>
+<text x="20" y="66" fill="#c46a5a" font-size="12" text-anchor="middle">OOM beast</text>
+<rect x="-2" y="70" width="44" height="4" fill="#331c1c"/><rect x="-2" y="70" width="40" height="4" fill="#c0392b"/>
+<g fill="#a84545"><rect x="8" y="80" width="24" height="8"/><rect x="4" y="88" width="32" height="8"/><rect x="0" y="96" width="40" height="28"/></g>
+<rect x="0" y="118" width="40" height="6" fill="#8a3535"/>
+<g fill="#ffffff"><rect x="8" y="100" width="6" height="6"/><rect x="26" y="100" width="6" height="6"/></g>
+<g fill="#2c0f0f"><rect x="10" y="102" width="3" height="4"/><rect x="28" y="102" width="3" height="4"/></g>
+<g fill="#ffffff"><rect x="10" y="112" width="4" height="5"/><rect x="18" y="112" width="4" height="5"/><rect x="26" y="112" width="4" height="5"/></g>
+</g>
+<rect x="-4" y="74" width="48" height="50" fill="#ffffff" opacity="0"><animate attributeName="opacity" values="0;0;0.85;0;0" keyTimes="0;0.74;0.755;0.77;1" dur="18s" begin="8.9s" repeatCount="indefinite"/></rect>
+</g>
+<!-- hero: quests left to right, boss to boss -->
+<g><animateTransform attributeName="transform" type="translate" values="-80 0;260 0;260 0;500 0;500 0;720 0;720 0;940 0" keyTimes="0;0.14;0.28;0.42;0.56;0.70;0.84;1" dur="18s" begin="8.9s" repeatCount="indefinite"/>
+<g><animateTransform attributeName="transform" type="translate" values="0 0;0 -2;0 0" keyTimes="0;0.5;1" dur="0.6s" begin="8.9s" repeatCount="indefinite"/>
+<text x="13" y="76" fill="#ecd07f" font-size="12" text-anchor="middle">zai</text>
+<rect x="-2" y="80" width="30" height="4" fill="#142a14"/><rect x="-2" y="80" width="30" height="4" fill="#3fb950"/>
+<g fill="#4a4a56"><rect x="2" y="88" width="16" height="4"/><rect x="0" y="92" width="20" height="4"/></g>
+<rect x="2" y="96" width="16" height="8" fill="#f2c9a1"/>
+<rect x="12" y="98" width="3" height="3" fill="#1d1d20"/>
+<rect x="0" y="104" width="20" height="12" fill="#3d6ac2"/>
+<g fill="#2e2e34"><rect x="4" y="116" width="6" height="8"/><rect x="14" y="116" width="6" height="8"/></g>
+<g><animateTransform attributeName="transform" type="rotate" values="-50 20 106;-50 20 106;55 20 106;-50 20 106;-50 20 106;55 20 106;-50 20 106;-50 20 106;55 20 106;-50 20 106;-50 20 106" keyTimes="0;0.16;0.19;0.23;0.44;0.47;0.51;0.72;0.75;0.79;1" dur="18s" begin="8.9s" repeatCount="indefinite"/>
+<rect x="18" y="78" width="4" height="24" fill="#dfe3ea"/>
+<rect x="14" y="100" width="12" height="3" fill="#d9b45e"/>
+<rect x="18" y="103" width="4" height="6" fill="#7a5a2e"/>
+</g>
+<path d="M44 82 Q72 104 46 122" stroke="#ffffff" stroke-width="4" fill="none" opacity="0">
+<animate attributeName="opacity" values="0;0;0.9;0;0;0.9;0;0;0.9;0;0" keyTimes="0;0.17;0.19;0.22;0.45;0.47;0.50;0.73;0.75;0.78;1" dur="18s" begin="8.9s" repeatCount="indefinite"/></path>
+</g>
+</g>
+<!-- death bursts -->
+<g fill="#7fae6f">
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.20;0.23;0.32;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;14 -22;14 -22" keyTimes="0;0.20;0.32;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><rect x="330" y="104" width="6" height="6"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.20;0.23;0.32;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;26 -6;26 -6" keyTimes="0;0.20;0.32;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><rect x="334" y="108" width="5" height="5"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.20;0.23;0.32;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -14;6 -14" keyTimes="0;0.20;0.32;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><rect x="326" y="110" width="5" height="5"/></g>
+</g>
+<g fill="#b0b0bc">
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.48;0.51;0.60;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;14 -22;14 -22" keyTimes="0;0.48;0.60;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><rect x="572" y="106" width="6" height="6"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.48;0.51;0.60;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;26 -6;26 -6" keyTimes="0;0.48;0.60;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><rect x="576" y="110" width="5" height="5"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.48;0.51;0.60;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;6 -14;6 -14" keyTimes="0;0.48;0.60;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><rect x="568" y="112" width="5" height="5"/></g>
+</g>
+<g fill="#d4766a">
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.76;0.79;0.88;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;16 -26;16 -26" keyTimes="0;0.76;0.88;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><rect x="796" y="100" width="7" height="7"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.76;0.79;0.88;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;30 -8;30 -8" keyTimes="0;0.76;0.88;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><rect x="802" y="106" width="6" height="6"/></g>
+<g opacity="0"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.76;0.79;0.88;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><animateTransform attributeName="transform" type="translate" values="0 0;0 0;8 -18;8 -18" keyTimes="0;0.76;0.88;1" dur="18s" begin="8.9s" repeatCount="indefinite"/><rect x="792" y="108" width="6" height="6"/></g>
+</g>
+</g></g>
+</g>
 
-<!-- resting prompt -->
-<g opacity="0"><set attributeName="opacity" to="1" begin="7.2s"/>
-<rect x="850" y="770" width="0" height="0" fill="none"/>
-<text x="936" y="780" fill="#6a6560" font-size="14" text-anchor="end">github.com/tomsen-ai</text>
-<text x="36" y="782" fill="#8a8580">&gt; </text>
-<rect x="62" y="765" width="11" height="21" fill="#e8e6e3"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" begin="7.2s" repeatCount="indefinite"/></rect></g>
+<!-- footer: resting prompt -->
+<g opacity="0"><set attributeName="opacity" to="1" begin="9.6s"/>
+<polygon points="44,908 956,908 956,916 964,916 964,952 956,952 956,960 44,960 44,952 36,952 36,916 44,916" fill="url(#glass)" stroke="#d9b45e" stroke-opacity="0.38" stroke-width="2"/>
+<text x="944" y="938" fill="#6d6d76" font-size="14" text-anchor="end">github.com/tomsen-ai</text>
+<text x="56" y="940" fill="#93939c">&gt; </text>
+<rect x="82" y="923" width="11" height="21" fill="#f2f1ee"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" begin="9.6s" repeatCount="indefinite"/></rect></g>
 </svg>
