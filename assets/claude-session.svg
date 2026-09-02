@@ -233,7 +233,7 @@
 <!-- footer: resting prompt -->
 <g opacity="0"><set attributeName="opacity" to="1" begin="9.6s"/>
 <polygon points="44,908 956,908 956,916 964,916 964,952 956,952 956,960 44,960 44,952 36,952 36,916 44,916" fill="url(#glass)" stroke="#d9b45e" stroke-opacity="0.38" stroke-width="2"/>
-<text x="944" y="938" fill="#6d6d76" font-size="14" text-anchor="end">github.com/tomsen-ai</text>
+<text x="944" y="938" fill="#6d6d76" font-size="14" text-anchor="end">tomsen.cn · github.com/tomsen02</text>
 <text x="56" y="940" fill="#93939c">&gt; </text>
 <rect x="82" y="923" width="11" height="21" fill="#f2f1ee"><animate attributeName="opacity" values="1;1;0;0" keyTimes="0;0.5;0.5;1" dur="1.1s" begin="9.6s" repeatCount="indefinite"/></rect></g>
 </svg>
