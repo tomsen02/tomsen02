@@ -13,8 +13,8 @@
 <br/><br/>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tomsen02/tomsen-ai/output/github-snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/tomsen02/tomsen-ai/output/github-snake.svg" width="100%" alt="A snake eating my GitHub contribution graph" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tomsen02/tomsen02/output/github-snake-dark.svg" />
+  <img src="https://raw.githubusercontent.com/tomsen02/tomsen02/output/github-snake.svg" width="100%" alt="A snake eating my GitHub contribution graph" />
 </picture>
 
 </div>
